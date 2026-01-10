@@ -1,5 +1,4 @@
-<head>
-<link rel="stylesheet" href="filename.css">
+  }
 </head>
 
 <h1>NoShldJ's scouting site<br>for FIRST Robotics team 3019</h1>
