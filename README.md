@@ -17,25 +17,25 @@
     }
     .btn_default{
       font-family: "M PLUS 1 Code", monospace;
-      font-weight: 300;
+      font-weight: 500;
       font-style: normal;
-      padding:10px;
+      padding:2px;
       background-color:white;
       color:black;
     }
     .btn_color1{
       font-family: "M PLUS 1 Code", monospace;
-      font-weight: 300;
+      font-weight: 500;
       font-style: normal;
-      padding:10px;
+      padding:2px;
       background-color:rgb(255,0,0);
       color:white;
     }
     .btn_color2{
       font-family: "M PLUS 1 Code", monospace;
-      font-weight: 300;
+      font-weight: 500;
       font-style: normal;
-      padding:10px;
+      padding:2px;
       background-color:rgb(0, 136, 255);
       color:white;
     }
