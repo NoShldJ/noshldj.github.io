@@ -1,3 +1,4 @@
+<!-- This is the apps script instructions I followed: https://github.com/levinunnink/html-form-to-google-sheet -->
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,15 @@
       margin: 0;
       background: linear-gradient(275deg, #ffffff 0%, #d4edea 100%);
       color:#003333;
+    }
+    .fill-out{
+      font-family: "RocknRoll One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 15px;
+      color: #005555;
+      text-align: center;
+      padding: 2px;
     }
     .btn_default{
       font-family: "M PLUS 1 Code", monospace;
@@ -125,11 +135,19 @@
     <button class="btn_default" onclick="iroGawari()" value="11212">BioHazard [11212]</button><br>
     <button class="btn_default" onclick="iroGawari()" value="11479">Formosa Robotics [11479]</button><br>
   </p>
-  <br>Press the button of the selected action when the team's robot performs that action!
-    <button onclick="action('hub-shot')">Hub Shot (robot)</button>
-    <button onclick="action('')">action 2</button>
-    <button onclick="action('')">action 3</button>
-    <button onclick="action('')">action 4</button>
+
+<form method="POST" action="https://script.google.com/macros/s/AKfycbxxctShwlMBZXGY6Wi094GCp7y_X9NKstxAdnzp9d3ng5eaPE7BlgitNboxYkUPxyvUlg/exec">
+    <input name="team_number" type="text" placeholder="value=" required>
+    <input name="Name" type="text" placeholder="Name" required>
+    <button type="submit">Send</button>
+
+    <br>Press the button of the selected action when the team's robot performs that action!
+
+      <button onclick="action('hub-shot')">Hub Shot (robot)</button>
+      <button onclick="action('')">action 2</button>
+      <button onclick="action('')">action 3</button>
+      <button onclick="action('')">action 4</button>
+  </form>
 </body>
 
 <!-- Do the containers here later! -->
