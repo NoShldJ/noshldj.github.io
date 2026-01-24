@@ -126,11 +126,11 @@
     <button class="btn_default" onclick="iroGawari()" value="10114">Phantom Talons [10114]</button><br>
     <button class="btn_default" onclick="iroGawari()" value="10183">ARC [10183]</button>
     <button class="btn_default" onclick="iroGawari()" value="10380">The Dragon Hunters [10380]</button><br>
-    <button class="btn_default" onclick="iroGawari()" value="10506">Crash Test Dummies []</button>
+    <button class="btn_default" onclick="iroGawari()" value="10506">Crash Test Dummies [10506]</button>
     <button class="btn_default" onclick="iroGawari()" value="10905">Team LOVE [10905]</button><br>
     <button class="btn_default" onclick="iroGawari()" value="10933">Tie Dye Samurai [10933]</button>
-    <button class="btn_default" onclick="iroGawari()" value="10980">The Deadbolts []</button><br>
-    <button class="btn_default" onclick="iroGawari()" value="10988">Desert Storm []</button>
+    <button class="btn_default" onclick="iroGawari()" value="10980">The Deadbolts [10980]</button><br>
+    <button class="btn_default" onclick="iroGawari()" value="10988">Desert Storm [10988]</button>
     <button class="btn_default" onclick="iroGawari()" value="11100">Team Epsilon [11100]</button><br>
     <button class="btn_default" onclick="iroGawari()" value="11176">RoboRabbits [11176]</button>
     <button class="btn_default" onclick="iroGawari()" value="11212">BioHazard [11212]</button><br>
