@@ -67,8 +67,9 @@
 </head>
 <body>
   <h1>NoShldJ's scouting site<br>for FIRST Robotics team 3019</h1>
+<form method="POST" action="https://script.google.com/macros/s/AKfycbxxctShwlMBZXGY6Wi094GCp7y_X9NKstxAdnzp9d3ng5eaPE7BlgitNboxYkUPxyvUlg/exec">
   Match #
-  <input class="fill-out"></input><br>
+  <input name="match_number" class="fill-out"></input><br>
 
   <p>Select participating teams:<br>
     <button class="btn_default" onclick="iroGawari()" value="TEST1">TEST TEAM [1]</button>
@@ -135,22 +136,16 @@
     <button class="btn_default" onclick="iroGawari()" value="11212">BioHazard [11212]</button><br>
     <button class="btn_default" onclick="iroGawari()" value="11479">Formosa Robotics [11479]</button><br>
   </p>
-
-<form method="POST" action="https://script.google.com/macros/s/AKfycbxxctShwlMBZXGY6Wi094GCp7y_X9NKstxAdnzp9d3ng5eaPE7BlgitNboxYkUPxyvUlg/exec">
     <input name="team_number" type="text" placeholder="value=" required>
     <input name="Name" type="text" placeholder="Name" required>
     <button type="submit">Send</button>
-
     <br>Press the button of the selected action when the team's robot performs that action!
-
       <button onclick="action('hub-shot')">Hub Shot (robot)</button>
       <button onclick="action('')">action 2</button>
       <button onclick="action('')">action 3</button>
       <button onclick="action('')">action 4</button>
   </form>
 </body>
-
-<!-- Do the containers here later! -->
 
 <span hidden>
 
